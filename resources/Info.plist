@@ -20,9 +20,9 @@
 	<key>CFBundleName</key>
 	<string>149 Slicer</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.45.1</string>
+	<string>0.45.2</string>
 	<key>CFBundleVersion</key>
-	<string>145</string>
+	<string>146</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>13.0</string>
 	<key>NSAppTransportSecurity</key>

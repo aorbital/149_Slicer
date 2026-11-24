@@ -4,7 +4,7 @@ A native macOS application for parametric modeling and 3D-printing toolpath gene
 
 **Apple Silicon · macOS 13 or later · English / 简体中文**
 
-[Download](https://github.com/aorbital/149_Slicer/releases/latest) · [Report an issue](https://github.com/aorbital/149_Slicer/issues) · [149 Calibration](https://github.com/Morayla/149_Calibration)
+[Download](https://github.com/aorbital/149_Slicer/releases/latest) · [Report an issue](https://github.com/aorbital/149_Slicer/issues) · [149 Calibration](https://github.com/aorbital/149_Calibration)
 
 ## Design a shape
 
@@ -72,7 +72,7 @@ dist/                Local application builds (not tracked)
 
 The interface uses SwiftUI and AppKit. Geometry and slicing are implemented in Swift; the SceneKit viewport uses Metal. Device control panels display device-provided interfaces through WebKit.
 
-[149 Calibration](https://github.com/Morayla/149_Calibration) is developed and distributed separately. It exports compensation presets that can be imported into Slicer's compensation controls. Each repository includes the UI and interchange components it needs and builds independently.
+[149 Calibration](https://github.com/aorbital/149_Calibration) is developed and distributed separately. It exports compensation presets that can be imported into Slicer's compensation controls. Each repository includes the UI and interchange components it needs and builds independently.
 
 ## Repository conventions
 
