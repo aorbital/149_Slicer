@@ -4,7 +4,7 @@ A native macOS application for parametric modeling and 3D-printing toolpath gene
 
 **Apple Silicon · macOS 13 or later · English / 简体中文**
 
-[Download](https://github.com/Morayla/149_Slicer/releases/latest) · [Report an issue](https://github.com/Morayla/149_Slicer/issues) · [149 Calibration](https://github.com/Morayla/149_Calibration)
+[Download](https://github.com/aorbital/149_Slicer/releases/latest) · [Report an issue](https://github.com/aorbital/149_Slicer/issues) · [149 Calibration](https://github.com/Morayla/149_Calibration)
 
 ## Design a shape
 
@@ -29,7 +29,7 @@ The preview preserves the extruded bead profile and printing texture. Material r
 
 ## Quick start
 
-1. Download the Apple Silicon application from [Releases](https://github.com/Morayla/149_Slicer/releases/latest), unzip it, and move **149 Slicer.app** to Applications.
+1. Download the Apple Silicon application from [Releases](https://github.com/aorbital/149_Slicer/releases/latest), unzip it, and move **149 Slicer.app** to Applications.
 2. In **Print**, choose the printer and material. Open the material editor to adjust temperature, flow, retraction, pellet extrusion, and appearance. Custom materials are saved in the local material library.
 3. In **Shape**, choose a preset and set its dimensions, bottom, and modifiers.
 4. Click **Slice**, then inspect the layer sequence and toolpath coloring.
@@ -44,7 +44,7 @@ Ginger G1 pellet workflows and selected Bambu Lab printer workflows are included
 Requires an Apple Silicon Mac, macOS 13 or later, and a full Xcode installation with its command-line tools. No Python or JavaScript runtime is required.
 
 ```sh
-git clone https://github.com/Morayla/149_Slicer.git
+git clone https://github.com/aorbital/149_Slicer.git
 cd 149_Slicer
 ./scripts/build-app.sh
 open "dist/149 Slicer.app"
